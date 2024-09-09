@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>cssSlider</title>
+</head>
+
+<body>
+    <div class="slider">
+        <input type="radio" name="radio-btn" id="radio1" checked>
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+
+        <div class="slides__wrapper">
+            <div class="slides">
+                <div class="slide slide1">
+                    <img src="./images/img1.jpg" alt="image">
+                </div>
+                <div class="slide">
+                    <img src="./images/img2.jpg" alt="image">
+                </div>
+                <div class="slide">
+                    <img src="./images/img3.jpg" alt="image">
+                </div>
+                <div class="slide">
+                    <img src="./images/img4.jpg" alt="image">
+                </div>
+            </div>
+        </div>
+
+        <div class="slider__panel">
+            <div class="slider__description-wrapper">
+                <div class="slider__container">
+                    <div class="slider__description description1">
+                        <span>
+                            Opisanie perwogo slajda
+                        </span>
+                    </div>
+                    <div class="slider__description">
+                        <span>
+                            Opisanie wtorogo slajda
+                        </span>
+                    </div>
+                    <div class="slider__description">
+                        <span>
+                            Opisanie treciego slajda
+                        </span>
+                    </div>
+                    <div class="slider__description">
+                        <span>
+                            Opisanie czetwertogo slajda
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__control">
+                <label for="radio1" class="control">
+                    <div class="point"></div>
+                </label>
+                <label for="radio2" class="control">
+                    <div class="point"></div>
+                </label>
+                <label for="radio3" class="control">
+                    <div class="point"></div>
+                </label>
+                <label for="radio4" class="control">
+                    <div class="point"></div>
+                </label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
